@@ -4,4 +4,10 @@ openai
 newsapi-python
 python-dotenv
 pytest
+streamlit
+langchain
+openai
+python-dotenv
+# add any other libs you use (tqdm, transformers, etc.)
+
 tenacity
