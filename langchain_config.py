@@ -8,7 +8,7 @@ from newsapi import NewsApiClient
 from tenacity import retry, wait_exponential, stop_after_attempt
 
 # Import ChatOpenAI from the partner package to avoid langchain_community issues
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
