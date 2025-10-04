@@ -8,6 +8,12 @@ streamlit
 langchain
 openai
 python-dotenv
-# add any other libs you use (tqdm, transformers, etc.)
+
+streamlit
+langchain==0.3.27
+langchain-community==0.3.30
+openai
+python-dotenv
 
 tenacity
+
